@@ -5,25 +5,28 @@ image: https://placehold.co/1080x520
 description: "Selamat datang di ExampleSite, situs demo yang menampilkan fitur dan tata letak tema ini."
 tags:
   - halaman
+  - halaman-utama
+  - beranda
 categories:
   - Halaman
 ---
 
-# Selamat Datang 🎉
+# Selamat Datang 🎉  
 
-Selamat datang di **ExampleSite**, implementasi demo dari tema **My Notes**.  
-Gunakan situs ini untuk menjelajahi fitur, tata letak, dan pengalaman pengguna sebelum mengintegrasikan tema ke proyek utama Anda.
+Selamat datang di **ExampleSite**, situs demo untuk tema **My Notes**.  
+Gunakan halaman ini untuk mengeksplorasi fitur, tata letak, dan pengalaman pengguna sebelum mengintegrasikan tema ini ke proyek Anda.  
 
-## Fitur Utama:
-- 🌍 **Dukungan Multi-Bahasa** - Jelajahi konten dalam berbagai bahasa.
-- 🎨 **Mode Gelap & Terang** - Beralih antara tema dengan mudah.
-- 🔍 **Pencarian Cepat** - Didukung oleh Lunr.js untuk hasil instan.
-- ✍ **Dukungan Markdown** - Tulis konten dengan sintaks Markdown sederhana.
-- � **Tata Letak Fleksibel** - Desain responsif dengan sidebar kiri, kanan, dan offcanvas.
+## ✨ Fitur Utama  
+- 🌍 **Dukungan Multi-Bahasa** – Tersedia dalam berbagai bahasa.  
+- 🎨 **Mode Gelap & Terang** – Beralih dengan satu klik.  
+- 🔍 **Pencarian Cepat** – Didukung oleh Lunr.js untuk hasil instan.  
+- ✍ **Dukungan Markdown** – Tulis konten dengan format yang sederhana.  
+- 📐 **Tata Letak Fleksibel** – Sidebar kiri, kanan, dan offcanvas yang responsif.  
 
-Jelajahi halaman lain untuk melihat cara kerja tema ini! 🚀  
-Untuk menyesuaikan tampilan atau fitur, mulailah dengan memeriksa file konfigurasi di `config/_default/`.
+Jelajahi halaman lain untuk melihat bagaimana tema ini bekerja! 🚀  
+Untuk kustomisasi, periksa file konfigurasi di `config/_default/`.  
 
 ---
 
-💡 **Tips:** Coba beralih antara mode gelap dan terang untuk melihat perbedaan visualnya!
+💡 **Tips:** Coba alihkan antara mode gelap dan terang untuk melihat perbedaannya!  
+**Tombol tema ada di bagian bawah 👇**
