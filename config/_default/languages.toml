@@ -39,7 +39,7 @@
         i18nDir             = "i18n"
         dateFormat          = "Monday, January 2, 2006"
     [en.params.author]
-        name                = "John Doe"
+        name                = "My Notes"
         subtitle            = "Write Your Catchy Subtitle Here!"
 
     #=================================================#
@@ -90,7 +90,7 @@
         i18nDir             = "i18n"
         dateFormat          = "Senin, 2 Januari 2006"
     [id.params.author]
-        name                = "John Doe"
+        name                = "Catatan Saya"
         subtitle            = "Tulis Subjudul Menarik Anda di Sini!"
 
     #=================================================#
