@@ -1,0 +1,52 @@
+#====================================#
+#========== PARAMS SETTING ==========#
+[author]
+name          = "My Notes"
+subtitle      = "Write Your Catchy Subtitle Here!"
+logo          = "logo/logo.webp"
+twitter       = "@johndoe"
+#====================================#
+#============= GISCUS ===============#
+[giscus]
+    active                   = true
+    data_repo                ="wumbojb/my-notes-demo"
+    data_repo_id             ="R_kgDOORBoTw"
+    data_category            ="General"
+    data_category_id         ="DIC_kwDOORBoT84CoraK"
+    data_mapping             ="pathname"
+    data_strict              ="0"
+    data_reactions_enabled   ="1"
+    data_emit_metadata       ="1"
+    data_input_position      ="top"
+
+#====================================#
+#========== WIDGET SETTING ==========#
+[widget]
+    pinned        = true
+    recent_post   = true
+    top_tags      = false
+    top_categories= false
+
+#====================================#
+#=========== SOCIAL LINK ============#
+[social]
+[social.facebook]
+    name = "Facebook"
+    url  = "https://www.example.com"
+    icon = "bi-facebook"
+[social.twitter]
+    name = "TwitterX"
+    url  = "https://www.example.com"
+    icon = "bi-twitter-x"
+[social.instagram]
+    name = "Instagram"
+    url  = "https://www.example.com"
+    icon = "bi-instagram"
+[social.github]
+    name = "Github"
+    url  = "https://www.example.com"
+    icon = "bi-github"
+[social.discord]
+    name = "Discord"
+    url  = "https://www.example.com"
+    icon = "bi-discord"
