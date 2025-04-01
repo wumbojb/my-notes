@@ -28,7 +28,7 @@
 #=================================================#
 #==================== English ====================#
 [en]
-    title           = "My Notes Demo"
+    title           = "My Notes"
     languageCode    = "en"
     languageName    = "English"
     weight          = 1
@@ -79,7 +79,7 @@
 #=================================================#
 #=================== INDONESIA ===================#
 [id]
-    title           = "Demo Catatan Saya"
+    title           = "Catatan Saya"
     languageCode    = "id"
     languageName    = "Indonesia"
     weight          = 2
