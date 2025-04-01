@@ -40,7 +40,7 @@
         dateFormat          = "Monday, January 2, 2006"
     [en.params.author]
         name                = "My Notes"
-        subtitle            = "Write Your Catchy Subtitle Here!"
+        subtitle            = "Meaningful Notes, Valuable Steps"
 
     #=================================================#
     #===================== MENUS =====================#
@@ -91,7 +91,7 @@
         dateFormat          = "Senin, 2 Januari 2006"
     [id.params.author]
         name                = "Catatan Saya"
-        subtitle            = "Tulis Subjudul Menarik Anda di Sini!"
+        subtitle            = "Catatan Bermakna, Langkah Berharga"
 
     #=================================================#
     #===================== MENUS =====================#
