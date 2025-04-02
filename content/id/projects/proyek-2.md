@@ -1,7 +1,7 @@
 ---
-title: "Project Example 1"
+title: Proyek 2
 image: https://placehold.co/1080x520
-description: 'Fill in your project description here, customize it according to your needs.'
+description: Fill in your project description here, customize it according to your needs.
 date: 2025-03-31T01:19:10+07:00
 lastModified: 2025-03-31T01:19:10+07:00
 tags:
@@ -10,8 +10,8 @@ tags:
 categories:
   - Projects
 status:
-  - ✅ Success
-pinned: true
+  - 💼 In progress
+pinned: false
 mathjax: false
 draft: false
 ---

@@ -1,25 +1,25 @@
 ---
-title: "Note Example 1"
+title: Catatan 1
 image: https://placehold.co/1080x520
-description: 'Fill in the Description Notes here'
+description: Fill in the Description Notes here
 date: 2025-03-31T01:19:10+07:00
 last_modified: 2025-03-31T01:19:10+07:00
 tags:
-  - "notes"
-  - "quick-notes"
+  - notes
+  - quick-notes
 categories:
-  - "Notes"
+  - Notes
 grouping:
-  - "💡 Quick Ideas"
-  - "📚 Learning"
-  - "🗒️ Summary"
-  - "🔂 Planning"
-  - "🤔 Others"
-  - "❔ Questions and Answers"
-  - "🚨 Urgent"
-  - "⏱️ Temporary"
+  - 💡 Quick Ideas
+  - 📚 Learning
+  - 🗒️ Summary
+  - 🔂 Planning
+  - 🤔 Others
+  - ❔ Questions and Answers
+  - 🚨 Urgent
+  - ⏱️ Temporary
 pinned: false
-mathjax: false 
+mathjax: false
 draft: false
 ---
 
