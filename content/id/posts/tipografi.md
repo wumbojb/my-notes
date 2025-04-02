@@ -136,20 +136,41 @@ Eu sit aute amet aute sit incididunt ex. Veniam do dolore officia amet exercitat
 > [!ERROR] Kesalahan  
 > Ini dengan peringatan (alert) Kesalahan.
 
-Lihat lengkap Kunjungi: [Kumpulan Peringatan](kumpulan-peringatan.md)  
+Lihat lengkap Kunjungi: [Kumpulan Peringatan](kumpulan-informasi.md)  
 
 ## Kode  
 
-### Python  
+### Python
+```python
+# Program sederhana Python
+def main():
+    print("Hello, World!")
+    
+    # Operasi penjumlahan
+    a = 5
+    b = 3
+    hasil = a + b
+    print(f"Hasil penjumlahan {a} + {b} = {hasil}")
 
-```python  
-print("Hello World")
+if __name__ == "__main__":
+    main()
 ```
 
-### Javascript
+### Golang
+```go
+package main
 
-```Javascript
-console.log("Hello World")
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+
+    // Operasi penjumlahan
+    a := 5
+    b := 3
+    hasil := a + b
+    fmt.Printf("Hasil penjumlahan %d + %d = %d\n", a, b, hasil)
+}
 ```
 
 ## Matematika
@@ -162,24 +183,117 @@ $$
 
 ### Mermaid  
 
-```mermaid  
-graph LR  
-    A[Mulai] --> B{Keputusan}  
-    B -->|Ya| C[Proses A]  
-    B -->|Tidak| D[Proses B]  
-    C --> E[Selesai]  
-    D --> E  
-```  
+#### Flowchart
+
+```mermaid
+graph TD;
+    A[Mulai] --> B{Apakah berhasil?};
+    B -- Ya --> C[Tampilkan hasil];
+    B -- Tidak --> D[Perbaiki bug];
+    D --> B;
+```
+
+```mermaid
+graph TD;
+    A[Mulai] --> B{Apakah berhasil?};
+    B -- Ya --> C[Tampilkan hasil];
+    B -- Tidak --> D[Perbaiki bug];
+    D --> B;
+```
+
+#### Sequence Diagram
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Server
+    User->>Server: Request data
+    Server-->>User: Response data
+```
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Server
+    User->>Server: Request data
+    Server-->>User: Response data
+```
+
+#### Gantt Chart
+
+```mermaid
+gantt
+    title Proyek Web Development
+    dateFormat  YYYY-MM-DD
+    section Desain
+    Wireframing     :done, 2024-03-01, 2024-03-07
+    UI/UX           :active, 2024-03-08, 2024-03-15
+    section Pengembangan
+    Frontend        : 2024-03-16, 2024-03-30
+    Backend         : 2024-04-01, 2024-04-15
+```
+
+```mermaid
+gantt
+    title Proyek Web Development
+    dateFormat  YYYY-MM-DD
+    section Desain
+    Wireframing     :done, 2024-03-01, 2024-03-07
+    UI/UX           :active, 2024-03-08, 2024-03-15
+    section Pengembangan
+    Frontend        : 2024-03-16, 2024-03-30
+    Backend         : 2024-04-01, 2024-04-15
+```
 
 ### GoAT ASCII  
+```goat
+    +---------+
+    |  Root   |
+    +----+----+
+         |
+    +----+----+
+    |         |
+  +----+   +----+
+  | A  |   | B  |
+  +----+   +----+
+```
+
+```goat
+    +---------+
+    |  Root   |
+    +----+----+
+         |
+    +----+----+
+    |         |
+  +----+   +----+
+  | A  |   | B  |
+  +
+```
 
 ```goat  
-______     _____    _____   _______   _____   _______  
- /      \   /     \  /     \ /       \ /     \ /       \  
-|        | |       ||       ||         ||     ||         |  
-|  (o)(o)  |   \_/  ||   o   ||    |    || o   ||   |     |  
- \        /  \_____/  \_____/  \_______/ \_____/ \_______/  
-  \______/
+  _____________________________
+ /                             \
+|    G O A T   D I A G R A M    |
+ \______  _____________________/
+        \/
+       .--.       .--.
+      |    |     |    |
+      |    |     |    |
+      |    |     |    |
+      '----'     '----'
+         \        /
+          \      /
+           \    /
+            \  /
+             \/
+          .-""""""-.
+         /          \
+        /            \
+       /              \
+      /                \
+     /                  \
+    /                    \
+   '----------------------'
 ```  
 
 ## YouTube
