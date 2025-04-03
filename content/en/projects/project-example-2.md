@@ -1,5 +1,5 @@
 ---
-title: "Project Example 1"
+title: "Project Example 2"
 image: https://placehold.co/1080x520
 description: 'Fill in your project description here, customize it according to your needs.'
 date: 2025-03-31T01:19:10+07:00

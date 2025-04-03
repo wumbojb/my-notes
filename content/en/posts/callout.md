@@ -1,43 +1,41 @@
 ---
-title: "Panduan Penggunaan Callout"
+title: "Callout Usage Guide"
 date: 2025-04-02T01:19:10+07:00
 lastModified: 2025-04-02T01:19:10+07:00
 image: https://placehold.co/1080x520
-description: "Panduan lengkap tentang cara menggunakan callout dalam tema ini, terinspirasi dari Obsidian."
+description: "Complete guide on how to use callouts in this theme, inspired by Obsidian."
 tags:
-  - dokumentasi
+  - documentation
   - callout
   - markdown
-  - panduan
+  - guide
 categories:
-  - Dokumentasi
-  - Blog
-  - Konten
-  - Artikel
+  - Documentation
+  - Articles
+  - Content
 pinned: true
 mathjax: false
 draft: false
 ---
 
-## 📌 Panduan Penggunaan Callout
+## 📌 Callout Usage Guide  
 
-Callout digunakan untuk memberikan keterangan atau sorotan penting dalam catatan tanpa mengganggu alur utama teks. Fitur ini terinspirasi dari [Obsidian](https://obsidian.md/) dan dapat digunakan untuk berbagai keperluan seperti info, peringatan, tips, dan contoh kode.
+Callouts are used to provide annotations or highlight important information in notes without disrupting the main text flow. This feature is inspired by [Obsidian](https://obsidian.md/) and can be used for various purposes such as info, warnings, tips, and code examples.  
 
-### ✨ Cara Menggunakan Callout
-Untuk membuat callout, tambahkan `[!tipe]` di awal blok kutipan (`>`). Tipe callout akan menentukan tampilan dan ikonnya.
+### ✨ How to Use Callouts  
+To create a callout, add `[!type]` at the beginning of a quote block (`>`). The callout type determines its appearance and icon.  
 
-#### 📖 Contoh Dasar
-```markdown
-> [!info] Ini adalah contoh callout informasi
-> Callout ini memberikan informasi tambahan.
-```
-> [!info] Ini adalah contoh callout informasi
-> Callout ini memberikan informasi tambahan.
+#### 📖 Basic Example  
+```markdown  
+> [!info] This is an example info callout  
+> This callout provides additional information.  
+```  
+> [!info] This is an example info callout  
+> This callout provides additional information.  
 
 ---
-
-### 🔥 Jenis Callout yang Didukung
-Berikut adalah beberapa jenis callout yang dapat digunakan:
+### 🔥 Supported Callout Types
+Here are some callout types that can be used:
 
 > [!info]
 > ```markdown
@@ -334,33 +332,39 @@ Berikut adalah beberapa jenis callout yang dapat digunakan:
 > ```
 
 ---
+Here’s the English translation of your text:
 
-### 📂 Callout Bertingkat (Nested)
-Anda juga dapat menumpuk beberapa callout di dalam satu sama lain untuk menyusun informasi lebih rapi.
+---
+
+### 📂 Nested Callouts  
+You can also nest multiple callouts inside each other to organize information more neatly.  
 ```markdown
-> [!question] Bisakah callout dirantai?
-> > [!todo] Ya! Ini adalah contoh callout bertingkat.
-> > > [!example] Anda bahkan bisa memiliki beberapa lapisan callout!
-```
-> [!question] Bisakah callout dirantai?
-> > [!todo] Ya! Ini adalah contoh callout bertingkat.
-> > > [!example] Anda bahkan bisa memiliki beberapa lapisan callout!
+> [!question] Can callouts be chained?  
+> > [!todo] Yes! This is an example of a nested callout.  
+> > > [!example] You can even have multiple layers of callouts!  
+```  
 
----
+> [!question] Can callouts be chained?  
+> > [!todo] Yes! This is an example of a nested callout.  
+> > > [!example] You can even have multiple layers of callouts!  
 
-### 🔄 Fitur Melipat (Collapsed)
-Saat ini, fitur melipat belum tersedia. Namun, kemungkinan akan ditambahkan di pembaruan mendatang.
-```markdown
-> [!note] Fitur Melipat (Collapsed)
-> Maaf, fitur ini belum tersedia. Akan ditambahkan di masa depan.
-```
-> [!note] Fitur Melipat (Collapsed)
-> Maaf, fitur ini belum tersedia. Akan ditambahkan di masa depan.
+---  
 
----
+### 🔄 Collapsible Feature  
+Currently, the collapsible feature is not yet available. However, it will likely be added in a future update.  
+```markdown  
+> [!note] Collapsible Feature  
+> Sorry, this feature is not yet available. It will be added in the future.  
+```  
+> [!note] Collapsible Feature  
+> Sorry, this feature is not yet available. It will be added in the future.  
 
-### 🔗 Sumber Referensi
-Untuk informasi lebih lanjut tentang callout, Anda bisa mengunjungi dokumentasi Obsidian: [Obsidian Callouts](https://help.obsidian.md/callouts).
-Selamat menggunakan callout! 🚀
+---  
 
----
+### 🔗 Reference Sources  
+For more information about callouts, you can visit the Obsidian documentation: [Obsidian Callouts](https://help.obsidian.md/callouts).  
+Happy callout usage! 🚀  
+
+---  
+
+Let me know if you'd like any refinements!
